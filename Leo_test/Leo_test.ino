@@ -58,8 +58,8 @@ Serial.print(" bits  ");
 // Serial.print(" Kpa  ");
 Serial.print(PSIpressure); // in psi
 Serial.println(" Psi");
-Serial.print(LW); // Input LiquidWire
-Serial.println(" V");
+//Serial.print(LW); // Input LiquidWire
+//Serial.println(" V");
 // delay(1000);
 }
 
