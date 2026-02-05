@@ -2440,6 +2440,18 @@
 		(uuid a48ab9e0-e301-4cb1-a466-145399599b06)
 	)
 	(rectangle
+		(start 199.136 201.93)
+		(end 262.636 210.058)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba155e32-b9d3-44d9-8950-782517b2c04d)
+	)
+	(rectangle
 		(start 255.27 125.73)
 		(end 318.77 173.99)
 		(stroke
@@ -2452,6 +2464,18 @@
 		(uuid bac41aa4-cd51-46b0-9921-778dfb880d47)
 	)
 	(rectangle
+		(start 64.77 203.2)
+		(end 128.27 212.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c4211016-75bc-49ce-91be-b8c577ebd3b0)
+	)
+	(rectangle
 		(start 105.41 76.2)
 		(end 200.66 194.31)
 		(stroke
@@ -2462,6 +2486,16 @@
 			(type none)
 		)
 		(uuid c653efed-625a-47da-8dfd-2b0ee15ec272)
+	)
+	(text "Up until these points in the circuit, everything works."
+		(exclude_from_sim no)
+		(at 231.902 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05babe55-1719-4b9d-8b5b-18def5945f9c")
 	)
 	(text "Wheatstone Bridge\n"
 		(exclude_from_sim no)
@@ -2517,6 +2551,16 @@
 			)
 		)
 		(uuid "75d6845c-5ac1-45ef-88d2-5f9fc6bef8a3")
+	)
+	(text "Replaced Trimming Potentiometer with an 8.2 Ohm Resistor\nsince the LW sensor currently hooked up to the circuit ranges\nfrom like 8 Ohms to 15 Ohms."
+		(exclude_from_sim no)
+		(at 96.774 207.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7637dab0-955f-4465-b895-fc76f75d9230")
 	)
 	(text "Cutoff Frequency at 50 Hz"
 		(exclude_from_sim no)
@@ -3060,6 +3104,16 @@
 		)
 		(uuid "82a81165-a9e0-471f-97a7-731910a2b4f7")
 	)
+	(polyline
+		(pts
+			(xy 251.46 149.86) (xy 243.84 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8424a00d-b318-4eec-b95a-011ee375e1e5")
+	)
 	(wire
 		(pts
 			(xy 313.69 152.4) (xy 313.69 161.29)
@@ -3260,6 +3314,16 @@
 		)
 		(uuid "d111ae68-ad0d-43b9-bc4c-68db5157821b")
 	)
+	(polyline
+		(pts
+			(xy 78.74 177.8) (xy 81.28 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64c14f3-81e2-445b-8a73-6cd64b899a86")
+	)
 	(wire
 		(pts
 			(xy 187.96 149.86) (xy 187.96 143.51)
@@ -3329,6 +3393,16 @@
 			(type default)
 		)
 		(uuid "e0f0e353-d196-4921-85c2-8ff9cde7dd1e")
+	)
+	(polyline
+		(pts
+			(xy 207.01 149.86) (xy 215.9 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b48485-0b2f-4e2c-8b4f-977628e5ccef")
 	)
 	(wire
 		(pts
