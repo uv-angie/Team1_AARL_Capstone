@@ -2416,18 +2416,6 @@
 		(uuid 12db64bf-0219-44de-8a9e-01e4ab6e364a)
 	)
 	(rectangle
-		(start 214.63 138.43)
-		(end 248.92 173.99)
-		(stroke
-			(width 0.381)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 94d555d2-5f2d-45d5-909a-0840ad0be1b3)
-	)
-	(rectangle
 		(start 41.91 118.11)
 		(end 91.44 193.04)
 		(stroke
@@ -2438,18 +2426,6 @@
 			(type none)
 		)
 		(uuid a48ab9e0-e301-4cb1-a466-145399599b06)
-	)
-	(rectangle
-		(start 199.136 201.93)
-		(end 262.636 210.058)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid ba155e32-b9d3-44d9-8950-782517b2c04d)
 	)
 	(rectangle
 		(start 255.27 125.73)
@@ -2487,16 +2463,6 @@
 		)
 		(uuid c653efed-625a-47da-8dfd-2b0ee15ec272)
 	)
-	(text "Up until these points in the circuit, everything works."
-		(exclude_from_sim no)
-		(at 231.902 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "05babe55-1719-4b9d-8b5b-18def5945f9c")
-	)
 	(text "Wheatstone Bridge\n"
 		(exclude_from_sim no)
 		(at 62.992 115.316 0)
@@ -2507,29 +2473,6 @@
 			)
 		)
 		(uuid "27d322e1-7783-4b59-9f57-2c7c059832e8")
-	)
-	(text "Cutoff Frequency at 0.1 Hz"
-		(exclude_from_sim no)
-		(at 231.648 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "3036bf49-a2f7-4207-b2d1-5c8072307619")
-	)
-	(text "High-Pass filter"
-		(exclude_from_sim no)
-		(at 231.902 132.588 0)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.2381)
-			)
-		)
-		(uuid "53aa2785-8c16-42bf-9a32-dc282642046a")
 	)
 	(text "Gain Resistor"
 		(exclude_from_sim no)
@@ -2601,12 +2544,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b288caa-0d1c-4f64-b0c8-83835490480a")
-	)
-	(junction
-		(at 233.68 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2076a639-d86b-40fd-bafc-538cd2b502c0")
 	)
 	(junction
 		(at 115.57 88.9)
@@ -2773,26 +2710,6 @@
 			(type default)
 		)
 		(uuid "16898aa8-7c09-4e8b-ac1f-6bff9af528f5")
-	)
-	(wire
-		(pts
-			(xy 233.68 149.86) (xy 233.68 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "195fa56d-dac2-45d5-9caa-8b31a2faaf40")
-	)
-	(wire
-		(pts
-			(xy 233.68 161.29) (xy 233.68 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19979e20-9b6d-4b86-aba2-d64570c62645")
 	)
 	(wire
 		(pts
@@ -3016,7 +2933,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 149.86) (xy 222.25 149.86)
+			(xy 187.96 149.86) (xy 257.81 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3104,16 +3021,6 @@
 		)
 		(uuid "82a81165-a9e0-471f-97a7-731910a2b4f7")
 	)
-	(polyline
-		(pts
-			(xy 251.46 149.86) (xy 243.84 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8424a00d-b318-4eec-b95a-011ee375e1e5")
-	)
 	(wire
 		(pts
 			(xy 313.69 152.4) (xy 313.69 161.29)
@@ -3196,16 +3103,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 149.86) (xy 257.81 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acbdcf53-4ae3-4f85-b928-3201c01c096d")
-	)
-	(wire
-		(pts
 			(xy 53.34 180.34) (xy 53.34 176.53)
 		)
 		(stroke
@@ -3263,16 +3160,6 @@
 			(type default)
 		)
 		(uuid "be385aea-419c-488e-bb3d-8405f82d335f")
-	)
-	(wire
-		(pts
-			(xy 227.33 149.86) (xy 233.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c443d4e6-fad7-4523-b6a9-16695748649c")
 	)
 	(wire
 		(pts
@@ -3394,16 +3281,6 @@
 		)
 		(uuid "e0f0e353-d196-4921-85c2-8ff9cde7dd1e")
 	)
-	(polyline
-		(pts
-			(xy 207.01 149.86) (xy 215.9 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b48485-0b2f-4e2c-8b4f-977628e5ccef")
-	)
 	(wire
 		(pts
 			(xy 298.45 135.89) (xy 313.69 135.89)
@@ -3433,76 +3310,6 @@
 			(type default)
 		)
 		(uuid "f9075c39-d8c0-4bb3-afa4-0eee8746597e")
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 233.68 158.75 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0382bba0-188d-4513-9fa2-e9a36aae871b")
-		(property "Reference" "R9"
-			(at 236.22 157.4799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 236.22 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 233.68 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 233.68 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b4b67691-5110-473d-98c3-ff7e51b4fa48")
-		)
-		(pin "1"
-			(uuid "51345179-7352-4a5c-8a37-7637a004b758")
-		)
-		(instances
-			(project "Rochelle_circuit"
-				(path "/e06ad2b5-2cad-4e7a-b65c-42b4d2c7f012"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -3778,7 +3585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32353602-a564-4bdb-9a20-60cc9fa268e1")
-		(property "Reference" "LiquidWire"
+		(property "Reference" "LiquidWire1"
 			(at 57.15 171.4118 0)
 			(effects
 				(font
@@ -3832,7 +3639,7 @@
 		(instances
 			(project ""
 				(path "/e06ad2b5-2cad-4e7a-b65c-42b4d2c7f012"
-					(reference "LiquidWire")
+					(reference "LiquidWire1")
 					(unit 1)
 				)
 			)
@@ -4103,139 +3910,6 @@
 			(project "Rochelle_circuit"
 				(path "/e06ad2b5-2cad-4e7a-b65c-42b4d2c7f012"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 224.79 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d606e11-03ef-4e58-bf24-7540d653f34d")
-		(property "Reference" "C2"
-			(at 224.7836 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.6u"
-			(at 224.7836 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 224.79 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 224.79 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8ac794de-6c9e-49c8-841b-2e187e88a1d5")
-		)
-		(pin "1"
-			(uuid "11c35cb1-a047-4454-9882-b0bc9343d52f")
-		)
-		(instances
-			(project "Rochelle_circuit"
-				(path "/e06ad2b5-2cad-4e7a-b65c-42b4d2c7f012"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 233.68 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d8637d7-090c-4179-9fff-775490511ef1")
-		(property "Reference" "#PWR07"
-			(at 233.68 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.998 169.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 233.68 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 233.68 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1c178303-14fd-4aee-9029-2a5bac3d4649")
-		)
-		(instances
-			(project "Rochelle_circuit"
-				(path "/e06ad2b5-2cad-4e7a-b65c-42b4d2c7f012"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
